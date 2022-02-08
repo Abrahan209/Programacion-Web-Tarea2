@@ -9,6 +9,7 @@
             var numeropera = 0;
             var operapendiente = "";
             var solucion = "";
+            let historial = [];
 
         function ingresarnumero(x) 
         {
@@ -56,6 +57,7 @@
                         pantallaconnumero = "no";
                         numpantalla = "";
                         usarpunto = "no";
+                    
                         _
                     }
 
@@ -70,6 +72,7 @@
                         pantallaconnumero = "si";
                         operapendiente = "";
                         usarpunto = "no";
+                        historial.push(' ${numeropera} ${operapendiente} ${numpantalla}  =  ${eval(solucion)}')
 
                     }
 
@@ -94,6 +97,10 @@
                     operapendiente = "";
                     solucion = "";
                     document.Calculadora.txtboxnros.value = "0";
+                }
+
+                const Guardar = () => {
+                    localStorage.setItem('historial', JSON.stringify(historial))
                 }
 
         </script>
