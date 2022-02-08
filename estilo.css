@@ -1,36 +1,41 @@
 #texto{
-border: solid;
-color: black;
-padding: 15px 32;
-text-align: right;
-text-decoration: none;
-display: inline-block;
-font-size: 70px;
-font-family: monospace;
-margin: 4px 2px;
-cursor: pointer;
-width: 98%;
-box-shadow: 3px 3px 3px black;
-background-color: white;
+display: block;
+text-align: center;
+font-size: 50px;
+margin-bottom: 50px;
+width: 300px;
+height: 100px;
+line-height: 100px;
+background-color: #fff;
+border-radius: 25px;
+
 }
 #boton{
-background-color: white;
-border: none;
-color: black;
-font-weight: bold;
-padding: 6px 20px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 60px;
-margin: 4px;
-font-family: monospace;
+display: block;
+width: 70px;
+height: 70px;
+font-size: 25px;
 cursor: pointer;
-box-shadow: 3px 3px 3px black;
+text-align: center;
+border-radius: 25px;
 }
+
+#botonigual{
+display: block;
+width: 300px;
+height: 70px;
+font-size: 25px;
+cursor: pointer;
+text-align: center;
+border-radius: 25px;
+}
+
 #tabla{
-background-color: #41035a;
-padding: 5px 5px;
-width: 40%;
-height: 70%;
+display: block;
+margin: 0 auto;
+padding: 20px;
+background-color: cadetblue;
+width: 300px;
+height: 550px;
+border-radius: 25px;
 }
